@@ -2807,7 +2807,7 @@ vec4 frag(vec3 pos, vec2 uv, vec4 color, sampler2D tex) {
     ]);
     add([
       sprite("flappy"),
-      pos(WIDTH / 2, HEIGHT / 2 - 100),
+      pos(WIDTH / 2, HEIGHT / 2 + 100),
       scale(3),
       origin("center")
     ]);
@@ -2818,7 +2818,7 @@ vec4 frag(vec3 pos, vec2 uv, vec4 color, sampler2D tex) {
       origin("center")
     ]);
     add([
-      text("CLICK TO {:AY AGAIN"),
+      text("CLICK TO PLAY AGAIN"),
       pos(WIDTH / 2, HEIGHT / 2 + 300),
       origin("center")
     ]);

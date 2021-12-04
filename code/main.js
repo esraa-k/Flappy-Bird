@@ -99,7 +99,7 @@ scene("lose", () => {
 
   add([
     sprite("flappy"),
-    pos(WIDTH/2, HEIGHT/2 - 100),
+    pos(WIDTH/2, HEIGHT/2 + 100),
     scale(3),
     origin("center"),
   ])
